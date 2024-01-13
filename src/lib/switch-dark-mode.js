@@ -1,7 +1,6 @@
 export const switchDarkMode = () => {
   const currentMode = document.querySelector("html");
   const iconOfDarkMode = document.querySelector("header > button > img");
-  const body = document.querySelector("body");
   const arrowLeft = document.getElementById("arrowLeft");
 
   if (currentMode.classList.contains("dark")) {

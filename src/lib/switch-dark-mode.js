@@ -7,11 +7,13 @@ export const switchDarkMode = () => {
     currentMode.classList.remove("dark");
     iconOfDarkMode.classList.remove("white-svg-fill");
     arrowLeft.classList.remove("white-svg-fill");
-    document.body.style.backgroundColor = "#27363f";
+    document.body.style.backgroundColor = "#f2f2f2s";
+    querySelector("body").style.backgroundColor = "#f2f2f2s";
   } else {
     currentMode.classList.add("dark");
     iconOfDarkMode.classList.add("white-svg-fill");
     arrowLeft.classList.add("white-svg-fill");
     document.body.style.backgroundColor = "#27363f";
+    querySelector("body").style.backgroundColor = "#27363f";
   }
 };

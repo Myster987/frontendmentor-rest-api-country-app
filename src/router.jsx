@@ -13,7 +13,7 @@ const rootRoute = new RootRoute({
       >
         <h3 className="font-semibold dark:">Where in the world?</h3>
 
-        <button className="flex items-center gap-3" onClick={switchDarkMode}>
+        <button className="flex items-center gap-3" onClick={() => switchDarkMode()}>
           <img src="dark_mode_icon.svg" alt="Dark mode icon" />
           Dark Mode
         </button>

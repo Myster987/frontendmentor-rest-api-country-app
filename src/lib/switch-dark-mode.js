@@ -7,7 +7,7 @@ export const switchDarkMode = () => {
     currentMode.classList.remove("dark");
     iconOfDarkMode.classList.remove("white-svg-fill");
     arrowLeft.classList.remove("white-svg-fill");
-    document.body.style.backgroundColor = "#f2f2f2s";
+    document.body.style.backgroundColor = "#27363f";
   } else {
     currentMode.classList.add("dark");
     iconOfDarkMode.classList.add("white-svg-fill");

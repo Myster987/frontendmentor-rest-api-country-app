@@ -3,7 +3,8 @@ export const switchDarkMode = () => {
   const iconOfDarkMode = document.querySelector("header > button > img");
   const arrowLeft = document.getElementById("arrowLeft");
 
-  
+  console.log(document.body);
+
   if (currentMode.classList.contains("dark")) {
     currentMode.classList.remove("dark");
     iconOfDarkMode.classList.remove("white-svg-fill");
